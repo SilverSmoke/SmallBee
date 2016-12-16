@@ -12,7 +12,7 @@ import javafx.stage.StageStyle;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         //Parent root = FXMLLoader.load(getClass().getResource("bee.fxml"));
         FXMLLoader loader = new FXMLLoader(getClass().getResource("bee.fxml"));
         //loader.setController(new Controller("Controller"));
@@ -30,6 +30,12 @@ public class Main extends Application {
         ImageView bee = (ImageView) root.lookup("#bee");
         bee.setRotate(180);
 
+        System.out.println(bee.getParent().getProperties().);
+
+
+        /*Timer timer = new Timer();
+        TimerTask task = new BeeMove(bee);
+        timer.schedule(task, 1000, 100);*/
     }
 
 
