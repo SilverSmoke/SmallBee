@@ -13,8 +13,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        //Parent root = FXMLLoader.load(getClass().getResource("bee1.fxml"));
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("bee1.fxml"));
+        //Parent root = FXMLLoader.load(getClass().getResource("bee.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("bee.fxml"));
         //loader.setController(new Controller("Controller"));
         Parent root = loader.load();
 

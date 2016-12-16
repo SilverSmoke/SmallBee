@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SmallBee:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SmallBee_jar</output-path>
+    <root id="archive" name="SmallBee.jar">
+      <element id="module-output" name="SmallBee" />
+    </root>
+  </artifact>
+</component>
