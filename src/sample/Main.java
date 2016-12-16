@@ -30,7 +30,7 @@ public class Main extends Application {
         ImageView bee = (ImageView) root.lookup("#bee");
         bee.setRotate(180);
 
-        System.out.println(bee.getParent().getProperties().);
+        System.out.println(bee.getParent());
 
 
         /*Timer timer = new Timer();
