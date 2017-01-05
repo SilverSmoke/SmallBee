@@ -9,6 +9,8 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+import static javafx.scene.Cursor.*;
+
 public class Main extends Application {
 
     @Override
@@ -30,12 +32,14 @@ public class Main extends Application {
         ImageView bee = (ImageView) root.lookup("#bee");
         bee.setRotate(180);
 
-        System.out.println(bee.getParent());
 
+        System.out.println();
+        bee.setCursor(OPEN_HAND);
 
-        /*Timer timer = new Timer();
-        TimerTask task = new BeeMove(bee);
-        timer.schedule(task, 1000, 100);*/
+        BeeMove beeGray = new BeeMove(bee);
+
+        beeGray.go();
+
     }
 
 

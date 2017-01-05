@@ -7,7 +7,7 @@
 
 <Pane fx:controller="sample.Controller" prefHeight="494.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <ImageView id="bee" fitHeight="94.0" fitWidth="98.0" layoutX="210.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView id="bee" fitHeight="94.0" fitWidth="98.0" layoutX="0" layoutY="0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../images/fly.png" />
             </image>
